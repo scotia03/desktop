@@ -1,8 +1,9 @@
 import streamlit as st
+from pathlib import Path
 import pandas as pd
 
-# Corrected file path for Linux
-file_path = '/C/pyhton/ps/honda_sell_data.csv'
+# Define the file path using pathlib
+file_path = Path('/C/pyhton/ps/honda_sell_data.csv')
 
 # Read the CSV file
 data = pd.read_csv(file_path)

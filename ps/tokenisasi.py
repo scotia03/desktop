@@ -15,7 +15,7 @@ def exact_match_search(query):
     return results.drop_duplicates()
 
 # Tampilan antarmuka web menggunakan Streamlit
-st.title('Search Engine medicine')
+st.title('Search medicine')
 
 # Input query dari pengguna
 query = st.text_input('Masukkan kata kunci pencarian:', '')

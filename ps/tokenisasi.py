@@ -1,8 +1,11 @@
 import streamlit as st
 import pandas as pd
 
-# Membaca data dari file CSV ke dalam DataFrame
-data = pd.read_csv('honda_sell_data.csv')
+# Corrected file path for Linux
+file_path = '/C/pyhton/ps/honda_sell_data.csv'
+
+# Read the CSV file
+data = pd.read_csv(file_path)
 
 # Fungsi untuk melakukan pencarian kata yang cocok secara eksak di dalam DataFrame
 def exact_match_search(query):

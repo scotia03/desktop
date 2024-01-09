@@ -52,7 +52,7 @@ def tfidf_search(query):
     return data.iloc[related_docs_indices]
 
 # Streamlit web interface
-st.title('Search Engine medicine')
+st.title('Search medicine')
 
 # User input query
 query = st.text_input('Masukkan kata kunci pencarian:', '')

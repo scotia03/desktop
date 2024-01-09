@@ -17,7 +17,6 @@ Filtering and Sorting: Options to filter and sort search results based on variou
 
 Up-to-Date Information: Regularly updated database to ensure that the information provided to users is accurate and current.
 
-Implementation:
 The project might involve:
 
 Database Management: Curating and managing a comprehensive database of medicines, potentially leveraging APIs or scraping information from reputable medical sources.

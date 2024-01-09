@@ -14,6 +14,11 @@ User-Friendly: Simple interface for easy interaction.
 Requirements
 
 Python 3.8.3
+altair
+pandas
+streamlit
+scikit-learn==1.3.2
+nltk==3.8.1
 
 Installation
 

@@ -1,32 +1,29 @@
-Medicine Search Application
-Welcome to the Medicine Search Application! This application is designed to help users find information about different medicines, including their uses, dosage, side effects, and more.
+Search Medicine US (Python)
+Description
+This Python script is designed to help users search for information about medicines available in the United States. It utilizes APIs or web scraping techniques to fetch data from reliable sources.
 
 Features
-Search Functionality: Users can search for medicines by name, category, or condition.
-Detailed Information: Provides comprehensive details about each medicine, including its generic name, brand name, uses, dosage, side effects, precautions, and contraindications.
-Bookmarking: Users can bookmark their frequently searched medicines for quick access.
-User-Friendly Interface: Intuitive and easy-to-use interface for seamless navigation.
-Getting Started
-To use the Medicine Search Application locally, follow these steps:
+Search by Name: Look up medicines by their names.
+Retrieve Information: Gather details such as usage, dosage, side effects, and more.
+Reliable Sources: Retrieve information from verified medical databases or websites.
+User-Friendly: Simple interface for easy interaction.
+Requirements
+Python 3.x
 
-Clone the Repository: git clone https://github.com/yourusername/medicine-search.git
-Install Dependencies: cd medicine-search and run npm install or yarn install depending on your package manager.
-Start the Application: Run npm start or yarn start to launch the application on your local machine.
-Access the Application: Open your web browser and navigate to http://localhost:3000 to use the application.
-Technologies Used
-Frontend: HTML, CSS, JavaScript, React.js
-Backend: Node.js, Express.js
-Database: MongoDB
+Installation
+Clone this repository or download the files.
+Install the required dependencies using pip install -r requirements.txt.
+
+Usage
+Run python tokenisasi.py.
+Follow the prompts or provide the medicine name to search for.
+View the retrieved information about the medicine.
+
 Contributing
-We welcome contributions from the community to enhance the functionality and features of the Medicine Search Application. If you'd like to contribute, please follow these steps:
-
-Fork the repository.
-Create a new branch (git checkout -b feature/new-feature).
-Make your changes and commit them (git commit -am 'Add new feature').
-Push to the branch (git push origin feature/new-feature).
-Create a new Pull Request.
-Support
-If you encounter any issues or have suggestions for improvement, please open an issue on GitHub.
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
 
 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [License Name] License - see the LICENSE file for details.
+
+Disclaimer
+This script is for educational and informational purposes only. It should not be considered a substitute for professional medical advice. Always consult a healthcare professional or pharmacist for accurate information about medications.

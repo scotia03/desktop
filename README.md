@@ -1,42 +1,25 @@
-Search Medicine US (Python)
-
 URL https://desktop-fsqkmmdxhgyb9egguu6sxe.streamlit.app/
+# Search Medicine US
 
-Description
+## Dataset
+Dataset yang digunakan dalam aplikasi ini adalah file CSV bernama `Medicine_Details.csv`. File ini berisi informasi tentang berbagai obat-obatan yang tersedia di Amerika Serikat. Setiap baris dalam file ini mencakup beberapa kolom yang memuat informasi seperti nama obat, kategori, deskripsi, dan lainnya.
 
-This Python script is designed to help users search for information about medicines available in the United States. It utilizes APIs or web scraping techniques to fetch data from reliable sources.
+## Permasalahan dan Tujuan
+Permasalahan yang ingin diselesaikan adalah memberikan pengguna kemampuan untuk mencari informasi tentang obat-obatan yang spesifik dari dataset yang tersedia. Tujuannya adalah memberikan pengguna kemudahan dalam menemukan informasi tentang obat-obatan yang mereka cari.
 
-Features
+## Model dan Alur Eksperimen
+Aplikasi ini menggunakan konsep TF-IDF (Term Frequency-Inverse Document Frequency) untuk melakukan pencarian. Berikut adalah alur eksperimen:
+1. Pemrosesan awal data: Tokenisasi, stemming, dan penggabungan kolom untuk vektorisasi TF-IDF.
+2. Pembuatan model TF-IDF menggunakan `TfidfVectorizer`.
+3. Penghitungan kesamaan kosinus antara query pengguna dan dokumen menggunakan matriks TF-IDF.
+4. Pengurutan hasil pencarian berdasarkan kesamaan kosinus.
 
-Search by Name: Look up medicines by their names.
-Retrieve Information: Gather details such as usage, dosage, side effects, and more.
-Reliable Sources: Retrieve information from verified medical databases or websites.
-User-Friendly: Simple interface for easy interaction.
+## Proses Deploy
+Untuk menjalankan aplikasi ini, pastikan Anda memiliki Python dan pustaka yang dibutuhkan seperti `streamlit`, `pandas`, `scikit-learn`, dan `nltk`. Berikut adalah langkah-langkah untuk menjalankan aplikasi:
+1. Instal semua pustaka yang dibutuhkan dengan menjalankan `pip install -r requirements.txt`.
+2. Jalankan aplikasi dengan perintah `streamlit run search_medicine_us.py`.
+3. Aplikasi akan dijalankan pada server lokal dan dapat diakses melalui browser dengan alamat `http://localhost:8501`.
 
-Requirements
+Anda dapat memasukkan kata kunci pencarian pada antarmuka web yang akan muncul, dan aplikasi akan menampilkan hasil pencarian yang relevan berdasarkan dataset obat-obatan yang disediakan.
 
-Python 3.8.3
-altair
-pandas
-streamlit
-scikit-learn==1.3.2
-nltk==3.8.1
-
-Installation
-
-Clone this repository or download the files.
-Install the required dependencies using pip install -r requirements.txt.
-
-Usage
-
-Run python tokenisasi.py.
-Follow the prompts or provide the medicine name to search for.
-View the retrieved information about the medicine.
-
-Contributing
-
-Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
-
-Disclaimer
-
-This script is for educational and informational purposes only. It should not be considered a substitute for professional medical advice. Always consult a healthcare professional or pharmacist for accurate information about medications.
+Happy searching!

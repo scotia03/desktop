@@ -1,9 +1,11 @@
 search engine medicine
+
 Saya akan dengan senang hati membantu Anda mencari informasi tentang obat tertentu. Harap berikan saya nama obat atau bahan aktifnya, dan saya akan berusaha sebaik mungkin mengumpulkan informasi yang relevan mengenai obat tersebut.
 Proyek "Obat Mesin Pencari" biasanya melibatkan pembuatan platform atau aplikasi tempat pengguna dapat mencari informasi tentang obat-obatan, termasuk penggunaan, dosis, efek samping, interaksi, dan banyak lagi. Berikut adalah garis besar singkat tentang apa yang mungkin diperlukan dalam proyek semacam itu:
 
 Keterangan:
 Proyek "Obat Mesin Pencari" bertujuan untuk menyediakan database komprehensif atau fungsi pencarian kepada pengguna untuk mengakses informasi tentang berbagai obat-obatan, obat-obatan, atau produk terkait perawatan kesehatan. 
+
 Fitur utama proyek ini meliputi:
 Fungsi Pencarian: Pengguna dapat memasukkan nama obat, bahan aktifnya, atau kata kunci terkait lainnya untuk mendapatkan informasi rinci tentang obat tersebut.
 Informasi Obat: Penjelasan rinci tentang obat-obatan, termasuk penggunaan, dosis, petunjuk pemberian, efek samping, kewaspadaan, kontraindikasi, dan potensi interaksi dengan obat lain.

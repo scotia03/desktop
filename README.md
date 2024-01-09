@@ -1,5 +1,7 @@
 Search Medicine US (Python)
 
+URL https://desktop-fsqkmmdxhgyb9egguu6sxe.streamlit.app/
+
 Description
 
 This Python script is designed to help users search for information about medicines available in the United States. It utilizes APIs or web scraping techniques to fetch data from reliable sources.
@@ -34,10 +36,6 @@ View the retrieved information about the medicine.
 Contributing
 
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
-
-License
-
-This project is licensed under the [License Name] License - see the LICENSE file for details.
 
 Disclaimer
 

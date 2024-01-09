@@ -13,7 +13,7 @@ User-Friendly: Simple interface for easy interaction.
 
 Requirements
 
-Python 3.x
+Python 3.8.3
 
 Installation
 
